@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+body{
+    background-image: url(/DIT1A06_2234878_Kaung_Si_Phyo/Images/Assassins_creed.jpg);
+}
+
+.aquabox{
+    width: 400px;
+    height: 200px;
+    background-color: aqua;
+    border: 5px dotted black;
+    box-shadow: 10px 5px 5px black;
+    filter: drop-shadow(5px 5px 5px white);
+}
+
+.Cooltext{
+    font-size: 30px;
+    /*offset-x offset-y blur color*/
+    text-shadow: 5px 5px 5px red ;
+}
+
+.lineargradient{
+    width: 400px;
+    height: 200px;
+    background: linear-gradient(90deg,pink,teal);
+    transform: rotate(20deg) skew(40deg);
+}
+
+.radialgradient{
+    width: 400px;
+    height: 200px;
+    background: radial-gradient(red,blue);
+}
