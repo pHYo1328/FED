@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   CA2 Assignment
+
+   Author:Kaung Si Phyo
+   Date: 08/07/2022
+   
+   Filename: experience.css
+   connected to experience.html
+*/
+
+/* Catalog style configuration */
+.otherInfos {
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    overflow: auto;
+    scrollbar-width: none;
+    /* firefox */
+    -ms-overflow-style: none;
+    /* IE 10+ */
+}
+
+.Catalog_cover {
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+    background-color: black;
+    color: white;
+    border-left: 3px solid purple;
+    border-top: 3px solid purple;
+    border-bottom: 3px solid purple;
+    z-index: 0;
+}
+
+.Catalog_cover>p {
+    margin: 3em 1.5em 0em 0.5em;
+    font-size: 2em;
+}
+
+.Catalog {
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    background-color: black;
+    scrollbar-width: none;
+    /* firefox */
+    -ms-overflow-style: none;
+    /* IE 10+ */
+}
+
+.pages,
+.page1 {
+    margin-right: -8em;
+    background-image: linear-gradient(90deg, rgb(52, 52, 55), black);
+    width: 500px;
+    height: 25em;
+    color: white;
+    border-radius: 1em;
+    overflow: auto;
+    scrollbar-width: none;
+    /* firefox */
+    -ms-overflow-style: none;
+    /* IE 10+ */
+    transition: 1s ease;
+
+}
+
+/* hiding scrollbar for catalog */
+.pages::-webkit-scrollbar,
+.page1::-webkit-scrollbar,
+.otherInfos::-webkit-scrollbar {
+    display: none;
+}
+
+.Catalog::-webkit-scrollbar {
+    display: none;
+    /* Chrome Safari */
+}
+
+.pages:hover {
+    transform: translateX(-40%);
+}
+
+.page1:hover+.pages {
+    transform: translateX(40%);
+}
+
+.pages h2,
+.page1 h2,
+.page img,
+p {
+    padding: 1em 0 0 1em;
+}
+
+.otherInfos a{
+    text-decoration: none;
+    color:  rgb(228, 160, 27);
+}

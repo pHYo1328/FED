@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   CA2 Assignment
+
+   Author:Kaung Si Phyo
+   Date: 08/07/2022
+   
+   Filename: feedback.css
+   connected to feedback.html
+*/
+/* emoji configuration */
+
+/* emoji 2d animations for feedback */
+#happy:hover{
+   transform: scale(1.1, 1.1);
+   transition: 1s;
+}
+
+#neutral:hover{
+   transform: scale(1.1, 1.1);
+   transition: 1s;
+}
+
+#upset:hover{
+   transform: scale(1.1, 1.1);
+   transition: 1s;
+}
+

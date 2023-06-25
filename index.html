@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <!--
+            New Perspectives on HTML5 and CSS3, 8th Edition
+            CA2 Assignment
+
+            Author:    Kaung Si Phyo
+            Date:      08/07/2022
+            Filename:  index.html
+             quoted all sources except photos own by myself.
+        -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello,everyone</title>
+    <!-- bootstrap stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- boxstyles for visualising our grid -->
+    <link rel="stylesheet" type="text/css" href="./CSS/index.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/mystyle.css">
+</head>
+
+<body class="bg-black">
+
+    <div class="mainpage text-center container-fluid text-wrap">
+        <nav class="navbar navbar-expand-md justify-content-between navbar-dark" id="navbar">
+            <a class="navbar-brand  px-2" href="#top">
+                <img src="./Images/pHYo.png" width="60" height="60" alt="mylogo">
+            </a>
+            <button class="navbar-toggler mx-3" type="button" data-bs-toggle="collapse" data-bs-target="#NavBar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end py-2" id="NavBar">
+                <ul class="navbar-nav">
+                    <li class="nav-item  mx-3">
+                        <a class="nav-link p-1 rounded-pill text-center active" href="./index.html">Home</a>
+    
+                    </li>
+                    <li class="nav-item  mx-3">
+                        <a class="nav-link p-1 rounded-pill text-center" href="./feedback.html">Feedback</a>
+                    </li>
+                    <li class="nav-item mx-3 ">
+                        <a class="nav-link p-1 rounded-pill text-center" href="./career.html">Career</a>
+                    </li>
+                    <li class="nav-item dropdown mx-3">
+                        <a class="nav-link dropdown-toggle p-1 rounded-pill text-center"
+                            href="./experience.html" id="navbarDropdown1" data-bs-toggle="dropdown">
+                            Experience
+                        </a>
+                        <ul class="dropdown-menu " aria-labelledby="navbarDropdown1">
+                            <li>
+                                <a href="./experience.html#experience" class="dropdown-item">Experience In SP</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <a href="./experience.html#courses" class="dropdown-item">SP
+                                    Course</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown mx-3 ">
+                        <a class="nav-link dropdown-toggle text-center p-1 rounded-pill "
+                            href="./index.html" id="navbarDropdown2" data-bs-toggle="dropdown">
+                            About Me
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                            <li>
+                                <a href="./aboutMe.html#portfolio" class="dropdown-item">Portfolio</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <a href="./aboutMe.html#projects" class="dropdown-item">Projects</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="row mt-5 text-wrap">
+            <div class="col mb-5 fw-bolder customtextcolor customtextfont">
+                Hi everyone. It is me,Phyo.
+            </div>
+        </div>
+        <div>
+            <div class="row mt-2 text-wrap">
+                <div class="col-2"></div>
+                <div class="col mb-5 customtextcolor fw-semibold customtextfont">
+                    I have been here, Singapore for nearly 6 months.This website is to show my Personalities and
+                    Activities also my
+                    Experience and Projects I have done.
+                </div>
+                <div class="col-2"></div>
+            </div>
+            <a href="#down" class="btn btn-lg btn-secondary fw-bold border-white bg-white text-dark customtextfont">Let's
+                Discover</a>
+        </div>
+    </div>
+    <h1 class="display-1 customtextcolor p-4" id="down">Have A look about Me</h1>
+    <div class="container-fluid align-content-lg-stretch text-wrap">
+        <div class="intro row">
+            <div class="col">
+                <a href="./aboutMe.html#portfolio">
+                    <div>
+                        <h2>Portfilo</h2>
+                        <i class="fa fa-file" style="font-size: 4em;"></i>
+                        <div class="lines">Let's see about my E-portfolio</div>
+                    </div>
+                </a>
+            </div>
+    
+            <div class="col">
+                <a href="./aboutMe.html#projects">
+                    <div>
+                        <h2>Projects</h2>
+                        <i class="fa fa-gear" style="font-size:4em;"></i>
+                        <div class="lines">Let's see projects I have done</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="./career.html">
+                    <div>
+                        <h2>Careers</h2>
+                        <i class="fa fa-briefcase" style="font-size: 4em;"></i>
+                        <div class="lines">Let's see my targeted careers</div>
+                    </div>
+                </a>
+            </div>
+    
+        </div>
+    </div>
+    <footer>
+        <div class="footer row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 p-3">
+            <div class="bg-black px-3 p-3">
+                <h2 class="text-white">Hire Me</h2>
+                <div class="d-flex">
+                    <input type="text" id="hireme" placeholder="Enter contect address" class="input">
+                    <input type="submit" value="Send" class="submit mx-2">
+                </div>
+            </div>
+            <div class="bg-black p-3">
+                <h2 class="text-white">Contact Me</h2>
+                <div class="row">
+                    <a href="https://www.facebook.com/kaungsi.phyo.7" class="col">
+                        <div class="facebook icon">
+                            <p class="fa fa-facebook text-decoration-none text-white"></p>
+                        </div>
+                    </a>
+                    <a href="mailto:235756ksp@gmail.com" class="col">
+                        <div class="googlemail icon">
+                            <p class="fa fa-google text-decoration-none text-white"></p>
+                        </div>
+                    </a>
+
+                    <a href="https://www.instagram.com/kaungsi.phyo.7/?hl=en" class="col">
+                        <div class="instragram icon">
+                            <p class="fa fa-instagram text-decoration-none text-white"></p>
+                        </div>
+                    </a>
+                    <a href="https://wa.me/+6597817187" class="col">
+                        <div class="whatsapp icon">
+                            <p class="fa fa-whatsapp col text-decoration-none text-white"></p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="navigate p-3">
+                <h2 class="text-white">Navigate</h2>
+                <a href="./aboutMe.html#portfolio">Portfolio</a>
+                <a href="./aboutMe.html#projects">Projects I have done</a>
+                <a href="./experience.html#experience">My Experiences in SP</a>
+                <a href="./experience.html#courses">My attending course detail</a>
+                <a href="./career.html">My targeted careers</a>
+                <a href="./feedback.html">Feedback</a><br />
+            </div>
+        </div>
+    </footer>
+    <!-- popper js, required for some bootstrap elements -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

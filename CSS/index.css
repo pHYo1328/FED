@@ -1,0 +1,92 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Limelight&family=Orelega+One&display=swap");
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   CA2 Assignment
+
+   Author:Kaung Si Phyo
+   Date: 08/07/2022
+   
+   Filename: index.css
+   connected to index.html
+*/
+
+/* introduction page style */
+.mainpage{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../Images/Myanmar_old.jpg"); /*source: midjourney */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+i {
+    color: rgb(228, 160, 27);
+}
+
+.customtextcolor{
+    color: rgb(255,223,0);
+    text-shadow: 5px 5px 8px black;
+
+}
+
+.mainpage .btn:hover{
+    transform: scale(1.1,1.1);
+    transition: 1s;
+}
+.header {
+    color: rgb(228, 160, 27);
+    font-size: 3em;
+    padding: 1em;
+    font-weight: bold;
+    font-family: "Orelega One", serif;
+    text-shadow: 5px 5px 8px #000000;
+}
+.intro {
+    text-align: center;
+    overflow-x: auto;
+    scrollbar-width: none;
+    /* firefox */
+    -ms-overflow-style: none;
+    /* IE 10+ */
+}
+
+/* hidden scrollbar */
+.intro::-webkit-scrollbar {
+    display: none;
+    /* chrome safari */
+}
+
+.intro a>div {
+    background-image: linear-gradient(90deg, rgb(52, 52, 55), black, rgb(52, 52, 55));
+    border: 2px solid purple;
+    border-radius: 2em;
+    margin: 3em;
+}
+
+.intro a {
+    text-decoration: none;
+    transition: 2s ease;
+}
+
+.intro a:hover div {
+    transform: scale(1.1, 1.1);
+}
+
+.intro h2 {
+    padding: 2em 0 2em 0;
+    color: rgb(228, 160, 27);
+    font-size: 2.5em;
+}
+
+.lines {
+    padding: 3em;
+    color: rgb(228, 160, 27);
+    font-size: 1.5em;
+}
+
+.customtextfont{
+    font-size: 3vw;
+}
+

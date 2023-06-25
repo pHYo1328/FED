@@ -1,0 +1,113 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Limelight&family=Orelega+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   CA2 Assignment
+
+   Author:Kaung Si Phyo
+   Date: 08/07/2022
+   
+   Filename: mystyle.css
+   connected to all file
+*/
+
+/* body color style */
+body{
+    background-color: hsl(202, 100%, 37%);
+
+}
+
+/* gradient color style backgroud for nav item */
+.navitembg{
+    background-image:  linear-gradient(30deg, hsl(202, 100%, 37%), hsl(217, 50%, 30%), aqua);
+}
+
+/* customized background color */
+.custombg{
+    background-color: rgba(119, 143, 168, 0.7);
+}
+
+/* box shadow configuration */
+.boxshadow{
+    box-shadow: 0.5em 0.5em 5px black;
+}
+
+.customborder{
+    border: 5px solid green;
+}
+
+/* biggest headings style */
+h1 {
+    font-weight: bold;
+    font-family: "Orelega One", serif;
+    font-size: 3em;
+}
+
+/* text shadow effect for headings */
+.textshadowblack{
+    text-shadow: 5px 5px 6px black;
+}
+
+
+/* footer configuration */
+.input {
+    width: 20em;
+    height: 2em;
+}
+
+.submit {
+    width: 6em;
+    height: 2.5em;
+    background-color: rgb(228, 160, 27);
+    border-radius: 2em;
+}
+.footer .navigate a {
+    text-decoration: none;
+    color: rgb(228, 160, 27);
+    float: left;
+    clear: both;
+    
+}
+
+.fa:hover,
+.navigate a:hover {
+    opacity: 0.7;
+}
+
+.icon{
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 0.5em 0;
+    width: 3em;
+    text-decoration: none;
+    font-size: 2em;
+    text-align: center;
+}
+
+.icon:hover{
+    transform: scale(1.1, 1.1);
+}
+
+.facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.googlemail {
+    background: #dd4b39;
+    color: white;
+}
+
+.instragram {
+    background: linear-gradient(#400080, transparent), linear-gradient(200deg, #d047d1, #ff0000, #ffff00);;
+    color: white;
+}
+
+.whatsapp {
+    background-color: green;
+    color: white;
+}
+
+

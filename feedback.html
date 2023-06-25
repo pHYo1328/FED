@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!--
+            New Perspectives on HTML5 and CSS3, 8th Edition
+            CA2 Assignment
+
+            Author:    Kaung Si Phyo
+            Date:      08/07/2022
+            Filename:  feedback.html
+             quoted all sources except photos own by myself.
+        -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Feedback</title>
+    <!-- bootstrap stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <!--My own stylesheets and js file-->
+    <link rel="stylesheet" href="./CSS/mystyle.css">
+    <link rel="stylesheet" href="./CSS/feedback.css">
+    <script src="./Javascript/feedback.js" defer></script>
+    
+</head>
+
+<body>
+    <header>
+        <img src="./Images/feedback_header.jpg" class="img-fluid" alt="feedbackheadder">
+                <!--image source: firstchoicecreditunion.ie-->
+    </header>
+    <nav class="navbar navbar-expand-md justify-content-between navbar-dark bg-dark sticky-top" id="navbar">
+        <a class="navbar-brand  px-2" href="#top">
+            <img src="./Images/pHYo.png" width="60" height="60" alt="mylogo">
+        </a>
+        <button class="navbar-toggler mx-3" type="button" data-bs-toggle="collapse" data-bs-target="#NavBar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end py-2" id="NavBar">
+            <ul class="navbar-nav">
+                <li class="nav-item p-2 mx-3">
+                    <a class="nav-link navitembg rounded-pill text-center" href="./index.html">Home</a>
+
+                </li>
+                <li class="nav-item p-2 mx-3 ">
+                    <a class="nav-link navitembg rounded-pill text-center active" href="./feedback.html">Feedback</a>
+                </li>
+                <li class="nav-item mx-3 p-2 ">
+                    <a class="nav-link navitembg rounded-pill text-center" href="./career.html">Career</a>
+                </li>
+                <li class="nav-item dropdown mx-3  p-2">
+                    <a class="nav-link dropdown-toggle navitembg rounded-pill text-center"
+                        href="./experience.html" id="navbarDropdown1" data-bs-toggle="dropdown">
+                        Experience
+                    </a>
+                    <ul class="dropdown-menu " aria-labelledby="navbarDropdown1">
+                        <li>
+                            <a href="./experience.html#experience" class="dropdown-item">Experience In SP</a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li>
+                            <a href="./experience.html#courses" class="dropdown-item">SP
+                                Course</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown mx-3   p-2">
+                    <a class="nav-link dropdown-toggle text-center navitembg rounded-pill"
+                        href="./index.html" id="navbarDropdown2" data-bs-toggle="dropdown">
+                        About Me
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                        <li>
+                            <a href="./aboutMe.html#portfolio" class="dropdown-item">Portfolio</a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li>
+                            <a href="./aboutMe.html#projects" class="dropdown-item">Projects</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <h1 class="display-2 text-white textshadowblack p-3 fw-bold">Website Feedback</h1>
+        <p class="text-white lead fw-bold p-3">Use the form below to send us your comments or any problems your experienced while you are
+            accessing my
+            portfolio.</p><br /><br />
+    </div>
+    <div class="container-fluid">
+        <div class="row row-cols-lg-2 row-cols-1 mx-3 mb-3">
+            <div class="col col-lg-5">
+                <div class="row mb-3 ">
+                    <img class="img-fluid" src="./Images/Feedback_matter.jpg" alt="feedback">
+                        <!--Source:www.depositphotos.com -->
+                </div>
+                <div class="row">
+                    <img class="img-fluid" src="./Images/Feedback-Vector-Illustration.jpg" alt="feedback">
+                        <!--Source:www.revechat.com-->
+
+                </div>
+            </div>
+            <div class="col col-lg-7 custombg rounded-4">
+                <form>
+                    <label class="text-white display-5 mb-3 p-3">I Have Feedback About:</label><br />
+                    <select class="form-select mb-3">
+                        <option selected>Select your issue</option>
+                        <option value="1">Website Issues</option>
+                        <option value="2">Slow Upload Speed</option>
+                        <option value="3">Security Problems</option>
+                        <option value="4">Unresponsive</option>
+                        <option value="5">Others....</option>
+                    </select>
+                    <div class="form-floating mb-4">
+
+                        <input type="text" class="form-control" id="nAme" name="nAme" placeholder="Enter your name."
+                            required>
+                        <label for="nAme">Name:</label>
+                    </div>
+                    <div class="form-floating mb-4">
+
+                        <input type="email" class="form-control" id="eMail" name="eMail" placeholder="Enter your Email."
+                            required>
+                        <label for="eMail" class="form-label">Email:</label>
+                    </div>
+                    <div class="form-floating mb-4">
+
+                        <input type="text" class="form-control" id="sUbject" name="sUbject"
+                            placeholder="Please state your subject." required>
+                        <label for="sUbject" class="form-label">Subject:</label>
+                    </div>
+                    <div class="form-floating mb-4">
+
+                        <input type="url" class="form-control" id="uRl" name="uRl"
+                            placeholder="Please state Page name or Url of the Page." required>
+                        <label for="uRl" class="form-label">Page / Url:</label>
+                    </div>
+                    <div class="form-floating mb-4">
+
+                        <input type="date" class="form-control" id="dAte" name="dAte" required>
+                        <label for="dAte" class="form-label">Date:</label>
+                    </div>
+                    <div class="form-floating mb-4">
+
+                        <input type="tel" class="form-control" id="telComm" name="telComm"
+                            placeholder="Please enter your Phone Number" required>
+                        <label for="telComm" class="form-label">Contect Number:</label>
+                    </div>
+                    <div class="form-floating mb-4">
+
+                        <textarea class="form-control" id="cOmment" name="cOmment"
+                            placeholder="Enter your comments for our website." style="height: 150px;"></textarea>
+                        <label for="cOmment" class="form-label">Comment:</label>
+                    </div>
+                    <div class="mb-4">
+                        <label for="rAnge" class="form-label text-white">Rate My Website</label>
+                        <input type="range" class="form-range" id="rAnge" min="0" max="100" step="1">
+                    </div>
+                    <!-- emoji satification level -->
+                    <div class="display-4 text-white p-3">Describe your satisfication level</div>
+                    <div class="row ">
+                        <input type="image" src="./Images/upset.png" width="100" id="upset" class="col-3 img-fluid" alt="upset">
+                        <input type="image" src="./Images/neutral.png" width="100" id="neutral" class="col-3 img-fluid" alt="neutral">
+                        <input type="image" src="./Images/happy.png" width="100" id="happy" class="col-3 img-fluid" alt="happy">
+                    </div>
+                    <input type="reset" class="btn btn-dark btn-outline-info mb-3">
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- popper js, required for some bootstrap elements -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!--
+            New Perspectives on HTML5 and CSS3, 8th Edition
+            CA2 Assignment
+
+            Author:    Kaung Si Phyo
+            Date:      08/07/2022
+            Filename:  aboutMe.html
+             quoted all sources except photos own by myself.
+        -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About Me</title>
+    <!-- bootstrap stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Own stylesheets and js file -->
+    <link rel="stylesheet" type="text/css" href="./CSS/mystyle.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/aboutMe.css">
+    <script src="./Javascript/aboutMe.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <img class="img-fluid" src="./Images/header_portfolio.png" alt="header_portfolio" />
+        <!--image source: junglediting.com-->
+    </header>
+    <nav class="navbar navbar-expand-md justify-content-between navbar-dark bg-dark sticky-top" id="navbar">
+        <a class="navbar-brand  px-2" href="#top">
+            <img src="./Images/pHYo.png" width="60" height="60" alt="mylogo">
+        </a>
+        <button class="navbar-toggler mx-3" type="button" data-bs-toggle="collapse" data-bs-target="#NavBar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end py-2" id="NavBar">
+            <ul class="navbar-nav">
+                <li class="nav-item p-2 mx-3">
+                    <a class="nav-link navitembg rounded-pill text-center" href="./index.html">Home</a>
+
+                </li>
+                <li class="nav-item p-2 mx-3">
+                    <a class="nav-link navitembg rounded-pill text-center" href="./feedback.html">Feedback</a>
+                </li>
+                <li class="nav-item mx-3 p-2 ">
+                    <a class="nav-link navitembg rounded-pill text-center" href="./career.html">Career</a>
+                </li>
+                <li class="nav-item dropdown mx-3  p-2">
+                    <a class="nav-link dropdown-toggle navitembg rounded-pill text-center"
+                        href="./experience.html" id="navbarDropdown1" data-bs-toggle="dropdown">
+                        Experience
+                    </a>
+                    <ul class="dropdown-menu " aria-labelledby="navbarDropdown1">
+                        <li>
+                            <a href="./experience.html#experience" class="dropdown-item">Experience In SP</a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li>
+                            <a href="./experience.html#courses" class="dropdown-item">SP
+                                Course</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown mx-3   p-2">
+                    <a class="nav-link dropdown-toggle text-center navitembg rounded-pill active"
+                        href="./index.html" id="navbarDropdown2" data-bs-toggle="dropdown">
+                        About Me
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                        <li>
+                            <a href="#portfolio" class="dropdown-item active ">Portfolio</a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li>
+                            <a href="#projects" class="dropdown-item">Projects</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="mainarticle " data-bs-spy="scroll" data-bs-target="#NavBar" data-bs-root-margin="0px 0px -40%"
+        data-bs-smooth-scroll="true">
+        <div id="portfolio">
+            <div class="aboutMe container-fluid">
+                <div class="row pt-3" style="height: 10em;">
+                    <div class="col text-center ">
+                        <h1 class="display-3 text-white textshadowblack" id="dynamic_Header">
+                        </h1>
+                        <!-- header with js -->
+                    </div>
+                </div>
+                <div class="row row-cols-lg-2 row-cols-md-1 row-cols-sm-1 py-3 ">
+                    <div class="col-xs-12 paragraph order-sm-1 order-1">
+                        <p class="p-5 fs-5 text-white customborder bg-black ">
+                            &emsp; Hi there, I am <b>Kaung Si Phyo</b>. But you can
+                            call me just Phyo or Kelvin. I will be 21 in this year. I am a
+                            <b>Programming amatuer</b> and interested in developing games and useful softwares, creating
+                            and
+                            refixing
+                            automatic machines and learning and using everythings related with
+                            modern technologies specifically <b>Virtual Reality</b>.<br />
+                            &emsp; &emsp; &emsp;My education background is 2<sup>nd</sup> year computer science student
+                            in
+                            <b>University of Infomation Technology (UIT) of Myanmar</b>. Now I am
+                            studying <b>1<sup>st</sup> year Diploma in Infomation Technology (DIT)
+                                in Singapore Polytechnic(SP)</b>.<br />
+                            &emsp; &emsp; &emsp;I am experienced in working with team and my projects span across
+                            <b>websites,
+                                automatic
+                                machines and softwares</b>. I was driven by my desire of creating things to make our
+                            lives
+                            easier
+                            and modern
+                            products must be easier use by all types of people.
+                        </p>
+                        <!-- about myself -->
+                    </div>
+                    <div class="col-lg-5 order-0 ">
+                        <a href="./Images/passportsizephoto.png" class=""><img src="./Images/passportsizephoto.png"
+                                class="img-fluid  py-3" alt="MyPhoto" id="MyPhoto"></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- my activities -->
+            <div class="container">
+                <h1 class="display-1 p-3 text-white textshadowblack">My Activities</h1>
+                <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 g-5 p-5 activities">
+                    <div class="col">
+                        <div class="customborder bg-black p-3 ">
+                            <h3 class="text-white">As a member of Outstanding Students in Myanmar</h3>
+                            <a href="./Images/LYC9memo.jpg"><img src="./Images/LYC9memo.jpg" alt="LYCtrip"
+                                    class="img-fluid py-3" style="width: 90%;" /></a>
+                            <p class="text-white fs-5">
+                                &emsp; &emsp; &emsp;I was chosen as a member of outstanding students program in Grade-9
+                                in
+                                Myanmar. The program is
+                                to take a field trip with all the members from every part of the Country. During this
+                                trip,
+                                I
+                                met with a lot of students from different places with different cultures and learned
+                                about
+                                their
+                                traditions and cultures.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="customborder bg-black p-3">
+                            <h3 class="text-white">Participating In Sport Festival in University of Infomation
+                                Technology in
+                                Myanmar
+                            </h3>
+                            <a href="./Images/UITsports.jpg"><img src="./Images/UITsports.jpg" class="img-fluid py-3 "
+                                    alt="UITsport" /></a>
+                            <p class="text-white fs-5">
+                                &emsp; &emsp; &emsp;In University of Infomation Technology, being aimmed for healthy and
+                                active
+                                students, they host lots of sport events during December and January. After this sport
+                                event, both
+                                of my physical and mental conditions improve and also become dynamic person.
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="col col-md-12">
+                        <div class="customborder bg-black p-3">
+                            <h3 class="text-white">Leading as leader in UIT 1<sup>st</sup> year programming project team
+                            </h3>
+                            <a href="./Images/Team5-coLeader.jpeg"><img src="./Images/Team5-coLeader.jpeg"
+                                    class="img-fluid py-3 " alt="presenting" style="width: 70%;" /></a>
+                            <p class="text-white fs-5">
+                                &emsp; &emsp; &emsp;For the 1<sup>st</sup> year in University of Infomation
+                                Technology(UIT),
+                                we need
+                                to develop a software with C++ language to pass final accessment. Lecturers divided the
+                                class into
+                                groups of nine people and instructed to create a small software with graphical user
+                                interface.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-cols-lg-2 row-cols-md-2 row-cols-sm-1 gx-3 py-3 px-1 customborder bg-black my-5">
+                    <div class="col-lg-6 ">
+                        <a href="./Images/monastery_education.jpg"><img src="./Images/monastery_education.jpg"
+                                class="img-fluid py-3 " alt="monastery" /></a>
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="text-white">Volunteering to teach children from monastery school</h3>
+                        <p class="text-white fs-5">
+                            &emsp; &emsp; &emsp; After I finished my secondary education, I participated as a volunteer
+                            teacher
+                            for primary students from monastery education. It was arranged by ANGL: the association by
+                            the
+                            students from outstanding student program. The orphans from warzones are adopted by the
+                            monks
+                            from
+                            that monastery. I work for two months there. I was very happy at that time and stillfeel the
+                            same.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- projects with overlay effects shown with carousel -->
+        <div id="projects" class="container">
+            <h1 class="display-1 p-3 text-white textshadowblack">Projects I have done</h1>
+            <div id="ProjectCarousel" class="carousel slide mb-5" data-bs-ride="true">
+                <div class="carousel-inner customborder">
+                    <div class="carousel-item active" data-bs-interval="1000" data-pause="false">
+                        <img class="img-fluid" src="./Images/signlanguage.webp" alt="signlanguage">
+                        <!-- source:www.takelessons.com -->
+
+                        <div class="carousel-caption d-none d-md-block text-dark">
+                            <h5 class="display-5">Sign Language Teaching Website</h5>
+                        </div>
+                        <div class="overlay">
+                            <div class="text text-wrap">
+                                <h2 class="display-5">Sign Language Teaching Website</h2>
+                                Used languages:
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>Javascript</li>
+                                    <li>PHP</li>
+                                </ul>
+                                <br />
+                                Used IDE: Visual Studio
+                                <br /><br />
+                                Target Audience: Deaf people and Sign Language Learners<br /><br />
+                                &emsp; &emsp; &emsp; We start this project for our web development module
+                                accessment
+                                in
+                                UIT
+                                1<sup>st</sup> year. We make it to be able learn sign language from website and
+                                make
+                                all
+                                the
+                                lessons collectively to be easy self-study for learners.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="1000" data-pause="false">
+                        <img class="img-fluid" src="./Images/GPS-vehicle-tracking.webp" alt="locationapp">
+                        <!-- source:www.versionx.com -->
+
+                        <div class="carousel-caption d-none d-md-block text-white">
+                            <h5 class="display-5">Bus Location Tracker Android Application Demo</h5>
+                        </div>
+                        <div class="overlay">
+                            <div class="text text-wrap">
+                                <h2 class="display-5">Bus Location Tracker Android Application Demo</h2>
+                                Used Languages:
+                                <ul>
+                                    <li>Java</li>
+                                    <li>Kotlin</li>
+                                    <li>Huawei HMS core</li>
+                                </ul>
+                                <br />
+                                Used IDE: Android Studio
+                                <br /><br />
+                                Target Audience: Bus users <br /><br />
+                                &emsp; &emsp; &emsp; During 2021 summer, My friend and I attended Bootcamp
+                                hosted by
+                                cooperation
+                                of University of Information Technology
+                                and Huawei Company. We learned how to create Andriod App and use HMS core. For
+                                final
+                                accessment,
+                                we had to make a demo app. My friend and I decided to create an app that detect
+                                the
+                                bus
+                                location, estimate arrival time and notify the user. For further extensional
+                                function is
+                                make
+                                digital bus fare and no more paper money.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="1000" data-pause="false">
+                        <img class="img-fluid" src="./Images/arduino.jpg" alt="arduino">
+                        <!-- Source:www.shattershock.com -->
+
+                        <div class="carousel-caption d-none d-md-block text-white">
+                            <h5 class="display-5">Arduino Fire Extinguisher Project</h5>
+                        </div>
+                        <div class="overlay">
+                            <div class="text text-wrap">
+                                <h2 class="display-5">Arduino Fire Extinguisher Project</h2>
+                                Used Language: C++
+                                <br /><br />
+                                Used IDE: Arduino.cc
+                                <br /><br />
+                                Target Audience: Makerthon
+                                <br /><br />
+                                &emsp; &emsp; &emsp; In my first year,second term, I participated in Makerthon
+                                and
+                                during 24
+                                hours, I create a auto fire detect extinguisher. It detect fire with heat and
+                                light
+                                sensors
+                                and
+                                extinguish when the place is over limited heat and light intensity
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item bg-white" data-bs-interval="1000" data-pause="false">
+                        <img class="img-fluid" src="./Images/exam.webp" alt="examapp">
+                        <!-- Source:www.dribbble.com -->
+
+                        <div class="carousel-caption d-none d-md-block text-black">
+                            <h5 class="display-5">Exam Software</h5>
+                        </div>
+                        <div class="overlay">
+                            <div class="text text-wrap">
+                                <h2 class="display-5">Exam Software</h2>
+                                Used Language:
+                                <ul>
+                                    <li>C++</li>
+                                    <li>MySQL</li>
+                                </ul>
+                                <br />
+                                Used IDE: QT
+                                <br /><br />
+                                Target Audience: Students
+                                <br /><br />
+                                &emsp; &emsp; &emsp; For final accessment for C++ Programming module, our group
+                                of
+                                nine
+                                peole
+                                have to make a small software. We decided to create an exam software which can
+                                be
+                                logged
+                                in
+                                by
+                                students of our university and sit exam. All the scores will be update in
+                                Database
+                                and
+                                teachers
+                                can also upload questions and answer key for exam.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#ProjectCarousel" data-bs-slide-to="0"
+                            class="active text-bg-dark" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#ProjectCarousel" data-bs-slide-to="1"
+                            class="text-bg-dark" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#ProjectCarousel" data-bs-slide-to="2"
+                            class="text-bg-dark" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#ProjectCarousel" data-bs-slide-to="3"
+                            class="text-bg-dark" aria-label="Slide 4"></button>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#ProjectCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#ProjectCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <footer class="bg-black p-3">
+        <div class="footer row row-cols-lg-3 row-cols-md-2 row-cols-sm-1">
+            <div class=" px-3 p-3">
+                <h2 class="text-white">Feel free to leave a contect address</h2>
+                <div class="d-flex">
+                    <input type="text" id="hireme" placeholder="Enter contect address" class="input">
+                    <input type="submit" value="Send" class="submit mx-2">
+                </div>
+            </div>
+            <div class=" p-3">
+                <h2 class="text-white">Contact Me</h2>
+                <div class="row">
+                    <a href="https://www.facebook.com/kaungsi.phyo.7" class="col">
+                        <div class="facebook icon">
+                            <p class="fa fa-facebook text-decoration-none text-white"></p>
+                        </div>
+                    </a>
+                    <a href="mailto:235756ksp@gmail.com" class="col">
+                        <div class="googlemail icon">
+                            <p class="fa fa-google text-decoration-none text-white"></p>
+                        </div>
+                    </a>
+
+                    <a href="https://www.instagram.com/kaungsi.phyo.7/?hl=en" class="col">
+                        <div class="instragram icon">
+                            <p class="fa fa-instagram text-decoration-none text-white"></p>
+                        </div>
+                    </a>
+                    <a href="https://wa.me/+6597817187" class="col">
+                        <div class="whatsapp icon">
+                            <p class="fa fa-whatsapp col text-decoration-none text-white"></p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="navigate p-3">
+                <h2 class="text-white">Navigate</h2>
+                <a href="./aboutMe.html#portfolio">Portfolio</a>
+                <a href="./">Projects I have done</a>
+                <a href="./experience.html#experience">My Experiences in SP</a>
+                <a href="./experience.html#courses">My attending course detail</a>
+                <a href="./career.html">My targeted careers</a>
+                <a href="./feedback.html">Feedback</a><br />
+            </div>
+        </div>
+    </footer>
+    <!-- popper js, required for some bootstrap elements -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
